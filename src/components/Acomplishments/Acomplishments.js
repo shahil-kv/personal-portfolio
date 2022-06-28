@@ -18,12 +18,10 @@ const Acomplishments = () => (
    <Section>
    {/* this is the title for the personal accomplisment large title */}
     <SectionTitle> Personal Accomplishment </SectionTitle>
-    <Boxes>
-  //  we are using a map function to give Each and every function to get elements
-// we are using the card as the data and the index as the number of datas in the
+ <Boxes>
          {data.map((card,index)=>(
           <Box key={index}>
-          we include our Number of achievements in the boxnum as card.num
+        
           <BoxNum>${card.number}</BoxNum>
           <BoxText>{card.text}</BoxText>
           </Box>
