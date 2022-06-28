@@ -6,6 +6,7 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 // we have also imported the projects folder from the constant and all the details of the project where in that folder we saved
 import { projects } from '../../constants/constants';
 
+const prefix="/personal-portfolio"
 // this is the starting of the project function we have created
 const Projects = () => (
    <Section nopadding id="projects">
@@ -22,7 +23,7 @@ const Projects = () => (
     //this is for the card to seperate using the id each and every project have a different project id and it will differentiate everything
           <BlogCard key={id}>
           {/* this will insert the image of the projects */}
-          <Img src={image}/>
+          <Img src={prefix+image}/>
           {/* this is where we insert the title of the project and its name etc */}
         <TitleContent>
           <HeaderThree title>{title} </HeaderThree>
