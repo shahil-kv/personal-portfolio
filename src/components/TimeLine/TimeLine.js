@@ -46,7 +46,13 @@ const Timeline = () => {
     <div>
     <Section id="about">
     <SectionTitle>About Me</SectionTitle>
-    <SectionText>We will update the data afther sometime so please wait till that we need some updation </SectionText>
+    <SectionText>Hello Guys my name is shahil and i am passionate in developing and designing
+      My Qualifications are 
+      <br/>
+      NO DEGREE NO CERTIFICATES
+      <br/>
+      ONLY SKILLS
+     </SectionText>
     <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
      <>
      {/* this is the map function which is collecting data from the timelineData 

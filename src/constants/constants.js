@@ -1,21 +1,32 @@
 export const projects = [
+
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://shahilkv.com',
-    visit: 'https://google.com',
+    title: 'E-Commerce Zauj',
+    description:"While building this web application I have learned the advanced javascript concepts and the React and I became so comfortable also i can do more advanced javascript web applications .",
+    image: '/images/2.png',
+    tags: ['React', 'JavaScript'],
+    source: 'https://github.com/shahil-leo/zauj-',
+    visit: 'https://shahil-leo.github.io/zauj-/',
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Tasa Static Website',
+    description: "Using Html,css and javascript This helps me to learn the Basic html css and javascript very clearly and comfortable with using it.",
+      image: '/images/1.png',
+      tags: ['Html', 'Css', 'Javascript'],
+    source: 'https://github.com/shahil-leo/tasa-1',
+    visit: 'https://github.com/shahil-leo/tasa-1',
     id: 1,
+  },
+
+  {
+    title: 'Neena',
+    description: "This is a simple web application and i build using the course that i am taken the angela course then i make this project",
+    image: '/images/4.jpg',
+    tags: ['React', 'ChatEngine', 'Firebase'],
+    source: 'https://github.com/shahil-leo/Neena',
+    visit: 'https://github.com/shahil-leo/Neena',
+    id: 2,
   },
   {
     title: 'WebRTC App',
@@ -24,23 +35,14 @@ export const projects = [
       tags: ['React', 'WebRTC'],
     source: 'https://google.com',
     visit: 'https://google.com',
-    id: 2,
-  },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
     id: 3,
   },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2019, text: 'Started my journey Buyed Angela y and other courses', },
+  { year: 2020, text: 'Started practising using building projects and freecode camp', },
+  { year: 2021, text: 'Worked as a freelance developer', },
+  { year: 2022, text: 'Next is to create a youtube channel and show the world how to make Awesome projects ', },
+  
 ];

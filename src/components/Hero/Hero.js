@@ -18,11 +18,13 @@ const Hero = () => (
         </SectionTitle>
   {/* this is the section title which is to be athe discription like  */}
         <SectionText>
-      The purpose of Javascript Mastery is to help aspiring and established developers to make awesome web apps
+    My name is shahil and I am a self taught developer and I will create beautifull and productive web apps for you
+
         </SectionText>
+    
         {/* there is a button in the website and whenever its is clicked we call a onClick function
         and it will understand and give a location to go  */}
-        <Button onClick={()=> window.location='https://google.com'}>Learn More</Button>
+        <Button onClick={()=> window.location='mshahillkv@gmail.com'}>Learn More</Button>
       </LeftSection>
  
     </Section>  

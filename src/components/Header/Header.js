@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 // this is importing the icons from the react icons pack
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineSend } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
 
@@ -19,7 +19,7 @@ const Header = () =>  (
     <Link href='/'>
    <a style={{display:"flex",alignItems:"center",color:'white', marginBottom:'20;'}}>
    {/* then we have element called Dicsdesk and thats like a logo pic or like that and we already defined that thing in the styles from the react icons dec */}
-     <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+     <DiCssdeck size="3rem" /> <Span>Shahil</Span>
    </a>
     </Link>
   </Div1>
@@ -46,17 +46,19 @@ and the div2 is styled in an another file and inside the div2 there is a li and 
 
 {/* this Div3 is for the social icons and we have 3 social icons Eachone is insiade a socialIcon  */}
   <Div3>
-    <SocialIcons href='https://github.com'>
+
+  <SocialIcons href='https://t.me/shahil_kv'>
+    <AiOutlineSend size="3rem"/>
+    </SocialIcons>
+
+    <SocialIcons href='https://github.com/shahil-leo?tab=repositories'>
     <AiFillGithub size="3rem"/>
     </SocialIcons>
 
-    <SocialIcons href='https://linkedin.com'>
+    <SocialIcons href='https://www.linkedin.com/in/muhammed-shahil-kv-0277a9243'>
     <AiFillLinkedin size="3rem"/>
     </SocialIcons>
 
-    <SocialIcons href='https://instagram.com'>
-    <AiFillInstagram size="3rem"/>
-    </SocialIcons>
   </Div3>
 
  </Container>

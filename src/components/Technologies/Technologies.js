@@ -17,8 +17,9 @@ const Technologies = () =>  (
     <SectionTitle>Technologies</SectionTitle>
     {/* this is  the text for the section text which is inside the section text */}
     <SectionText>
-      I havee worked with a range of technologies in the web development world.
-      From Back-end To Design
+      I have worked with a range of technologies in the web development world.
+      From Back-end To Design 
+      
     </SectionText>
     {/* there are the starting of the list items  */}
     <List>
